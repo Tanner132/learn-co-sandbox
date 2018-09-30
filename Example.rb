@@ -5,7 +5,8 @@ def myMethod(items,input)
     if items[input] == 0 || 2 || 3 
        puts "You have recieved free shipping!!"
     else puts "Shipping charge $5.00"
-  end 
+    end 
+  end
 end
 
 myMethod(shoppingCart, input)
