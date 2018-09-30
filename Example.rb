@@ -7,4 +7,5 @@ def myMethod(items,input)
     else puts "Shipping charge $5.00"
   end 
 end
-myMethod(shoppingCart)
+
+myMethod(shoppingCart, input)
