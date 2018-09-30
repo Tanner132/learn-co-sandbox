@@ -1,7 +1,7 @@
 shoppingCart = [{"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} ]
 
 def convert_to_array(shoppingCart)
-  shoppingCart.to_a #=> [[]]
+  shoppingCart.to_a #=> [["hoodie"]]
 end 
 
 def select_item(shoppingCart)
