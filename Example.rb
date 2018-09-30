@@ -1,5 +1,7 @@
 shoppingCart = [{"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} ]
 
+
+
 def select_item(shoppingCart)
      itemSelection = shoppingCart[gets.strip.to_i - 1]
 end 
