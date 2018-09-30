@@ -19,7 +19,7 @@ def myMethod(items,select_item)
   end
 end
 
-display_item(select_item,shoppingCart)
+display_item(select_item(shoppingCart),shoppingCart)
 convert_to_array(shoppingCart)
 select_item(shoppingCart)
 myMethod(shoppingCart, select_item(shoppingCart))
