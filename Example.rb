@@ -6,4 +6,4 @@ def my_method(items)
   end 
 end 
 
-my_method(shoppingCart)
+my_method(shopping_cart)
