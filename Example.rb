@@ -1,7 +1,6 @@
-shoppingCart = [{"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} ]
+shoppingCart = {"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} 
 
 def display_item(select_item,shoppingCart)
-   my_item = 
   shoppingCart.each do |item,value| 
     puts item(select_item) + ' ' + value(select_item)
   end
