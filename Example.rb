@@ -13,4 +13,4 @@ def myMethod(items,select_item)
   end
 end
 
-myMethod(shoppingCart, input)
+myMethod(shoppingCart, select_item)
