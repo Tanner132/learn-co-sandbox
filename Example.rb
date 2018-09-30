@@ -4,9 +4,7 @@ def select_item(shoppingCart)
      itemSelection = shoppingCart[gets.strip.to_i - 1]
 end 
 
-def display_item(select_item, shoppingCart)
-  puts shoppingCart[select_item]
-end 
+
 
 def myMethod(items,select_item)
   items.each do |items|
