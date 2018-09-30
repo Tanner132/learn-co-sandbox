@@ -1,7 +1,9 @@
-shoppingCart = [{"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} ]
+shoppingCart = {"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} 
 
-def convert_to_array(shoppingCart)
-  shoppingCart.to_a #=> [["hoodie:", $59], ["Tshirt:", $30], ["Jeans:", $69], ["Shoes:" $100]]
+def display_item(select_item,shoppingCart)
+  shoppingCart.each do |item, price| 
+    puts shoppingCart[select_item]
+  end
 end 
 
 def select_item(shoppingCart)
