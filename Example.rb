@@ -1,7 +1,7 @@
 shoppingCart = [{"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:" => "$100"} ]
 
 def select_item(shoppingCart)
-    puts itemSelection = shoppingCart[gets.strip.to.i - 1]
+    puts itemSelection = shoppingCart[gets.strip.i - 1]
 end 
 
 def myMethod(items,select_item)
