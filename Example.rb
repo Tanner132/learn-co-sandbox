@@ -1,9 +1,9 @@
-shoppingCart = [Hoodie:$59, Tshirt:$30,Jeans:$69,Shoes:$100 ]
+shopping_cart = [Hoodie:$59, Tshirt:$30,Jeans:$69,Shoes:$100 ]
 
-def myMethod(items)
+def my_method(items)
   shoppingCart.each do |items|
     puts items
   end 
 end 
 
-myMethod(shoppingCart)
+my_method(shoppingCart)
