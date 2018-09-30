@@ -17,5 +17,6 @@ def myMethod(items,select_item)
   end
 end
 
+convert_to_array(shoppingCart)
 select_item(shoppingCart)
 myMethod(shoppingCart, select_item(shoppingCart))
