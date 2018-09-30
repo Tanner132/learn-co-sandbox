@@ -2,7 +2,7 @@ shoppingCart = {"Hoodie:" => "$59", "Tshirt:" => "$30","Jeans:" =>"$69","Shoes:"
 
 def display_item(select_item,shoppingCart)
   shoppingCart.each do |item, price| 
-    puts shoppingCart[select_item]
+    puts 
   end
 end 
 
