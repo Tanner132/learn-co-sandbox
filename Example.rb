@@ -5,6 +5,7 @@ def select_item(shoppingCart)
 end 
 
 
+
 def myMethod(items,select_item)
   items.each do |items|
     if items[select_item] == 0 || items[select_item] == 2 || items[select_item] == 3 
@@ -14,5 +15,4 @@ def myMethod(items,select_item)
   end
 end
 
-select_item(shoppingCart)
 myMethod(shoppingCart, select_item(shoppingCart))
