@@ -17,5 +17,5 @@ def myMethod(items,select_item)
   end
 end
 
-display_item(select_item, shoppingCart)
+display_item(select_item(shoppingCart), shoppingCart)
 myMethod(shoppingCart, select_item(shoppingCart))
